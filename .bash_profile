@@ -1,5 +1,5 @@
 # Helpful bash commands
-sudo apt-get install bash-completion -y
+#sudo apt-get install bash-completion -y
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
 # Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards

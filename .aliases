@@ -34,3 +34,18 @@ alias ls="command ls ${colorflag}"
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
+
+# Sharesies specific
+alias src='cd /home/james/src'
+alias srcs='cd /home/james/src/sharesies'
+alias srcsb='cd /home/james/src/sharesies/backend-mvp && . venv/bin/activate'
+alias srcj='cd /home/james/src/james'
+
+# Pytest without the junk
+alias pytest='pytest --failed-first --disable-pytest-warnings'
+
+# Random i3 things that I want alias' for
+alias b='xrandr --output eDP --brightness'
+
+# File explorer
+alias o='nautilus --browser'
